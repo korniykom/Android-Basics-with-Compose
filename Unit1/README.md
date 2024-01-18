@@ -8,4 +8,5 @@
 <img src="https://github.com/korniykom/Android-Basics-with-Compose/assets/81708839/32c28651-11fd-4727-bfb3-72758985eaa2" alt="Basic Compose Article" width="250"/>
 
 4. Task Manager
-   <img src="https://github.com/korniykom/Android-Basics-with-Compose/assets/81708839/9b053c79-daf7-4539-a552-c2e55fbcb357" alt="Task Manager" width="250"/>
+
+<img src="https://github.com/korniykom/Android-Basics-with-Compose/assets/81708839/9b053c79-daf7-4539-a552-c2e55fbcb357" alt="Task Manager" width="250"/>

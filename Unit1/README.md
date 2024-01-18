@@ -10,3 +10,11 @@
 4. Task Manager
 
 <img src="https://github.com/korniykom/Android-Basics-with-Compose/assets/81708839/9b053c79-daf7-4539-a552-c2e55fbcb357" alt="Task Manager" width="250"/>
+
+5. Quadrant
+
+<img src="https://github.com/korniykom/Android-Basics-with-Compose/assets/81708839/b647ff81-bb76-448c-baff-d19b9fc05a06" alt="Quadrant" width="250"/>
+
+6. Business Card
+ 
+   <img src="https://github.com/korniykom/Android-Basics-with-Compose/assets/81708839/798aa083-bdb7-44c7-be85-a64a132ecdfe" alt="Quadrant" width="250"/>)

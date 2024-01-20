@@ -1,3 +1,7 @@
 1. Dice Roller
 
 <img src="https://github.com/korniykom/Android-Basics-with-Compose/assets/81708839/77e5df8e-0096-4a77-bd2d-fddd938d0999" alt="Dice Roller" width="250"/>
+
+2. Lemon app
+
+<img src="https://github.com/korniykom/Android-Basics-with-Compose/assets/81708839/ccf59b45-d23e-42f7-b783-b586247ccc3a" alt="Dice Roller" width="250"/>

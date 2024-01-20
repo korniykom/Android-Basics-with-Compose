@@ -5,3 +5,7 @@
 2. Lemon app
 
 <img src="https://github.com/korniykom/Android-Basics-with-Compose/assets/81708839/ccf59b45-d23e-42f7-b783-b586247ccc3a" alt="Dice Roller" width="250"/>
+
+3. Tip calculator
+
+<img src="https://github.com/korniykom/Android-Basics-with-Compose/assets/81708839/d3fa786b-28b7-439b-8fc0-44a4e1ce8547" alt="Dice Roller" width="250"/>

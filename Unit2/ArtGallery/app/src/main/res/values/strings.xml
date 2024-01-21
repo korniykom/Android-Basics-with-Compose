@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">Art Gallery</string>
+    <string name="art_description" translatable="false">Art №%s</string>
+</resources>

@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color purple_200
+color purple_500
+color purple_700
+color teal_200
+color teal_700
+color white
+drawable _0a7c6685e0e9e4bda58cb2d13eb9553__beautiful_artwork_oil_paintings_2408883032
+drawable _62ada895a27a6bc5e5e5bd7859bd309_637539996
+drawable dice_1
+drawable dice_2
+drawable dice_3
+drawable dice_4
+drawable dice_5
+drawable dice_6
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable memling__hans__flowers_in_a_jug__reverse_
+drawable wp5001072_4265681776
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string art_description
+style Theme.ArtGallery
+xml backup_rules
+xml data_extraction_rules

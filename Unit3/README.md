@@ -10,3 +10,6 @@
 
 <img src="https://github.com/korniykom/Android-Basics-with-Compose/assets/81708839/50fb598a-48fe-4bc9-a9cc-093a868fa4fd" alt="Woof" width="250"/>
 
+4. Heroes App
+
+<img src="https://github.com/korniykom/Android-Basics-with-Compose/assets/81708839/f3e8999f-8962-4406-b575-f10fed9d33e8" alt="Woof" width="250"/>

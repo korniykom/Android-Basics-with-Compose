@@ -46,6 +46,7 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
@@ -60,9 +61,11 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.content.ContextCompat
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.dessertclicker.data.Datasource
 import com.example.dessertclicker.model.Dessert
 import com.example.dessertclicker.ui.theme.DessertClickerTheme
+import com.example.dessertclicker.ui.theme.GameViewModel
 
 private const val TAG = "MainActivity"
 
@@ -170,8 +173,11 @@ private fun shareSoldDessertsInformation(intentContext: Context, dessertsSold: I
 
 @Composable
 private fun DessertClickerApp(
-    desserts: List<Dessert>
+    desserts: List<Dessert>,
+    gameViewModel: GameViewModel  = viewModel()
 ) {
+
+    val gameUiState by gameViewModel.UiState.collectAsState()
 
     var revenue by remember { mutableStateOf(0) }
     var dessertsSold by remember { mutableStateOf(0) }
@@ -257,8 +263,11 @@ fun DessertClickerScreen(
     dessertsSold: Int,
     @DrawableRes dessertImageId: Int,
     onDessertClicked: () -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
 ) {
+    val gameViewModel: GameViewModel = viewModel()
+    val uiState = gameViewModel.UiState.collectAsState()
+
     Box(modifier = modifier) {
         Image(
             painter = painterResource(R.drawable.bakery_back),
@@ -278,7 +287,7 @@ fun DessertClickerScreen(
                         .width(dimensionResource(R.dimen.image_size))
                         .height(dimensionResource(R.dimen.image_size))
                         .align(Alignment.Center)
-                        .clickable { onDessertClicked() },
+                        .clickable { gameViewModel.onDessertClick() },
                     contentScale = ContentScale.Crop,
                 )
             }
@@ -315,6 +324,8 @@ private fun TransactionInfo(
 
 @Composable
 private fun RevenueInfo(revenue: Int, modifier: Modifier = Modifier) {
+    val gameViewMode: GameViewModel = viewModel()
+    val uiState = gameViewMode.UiState.collectAsState()
     Row(
         modifier = modifier,
         horizontalArrangement = Arrangement.SpaceBetween,
@@ -325,7 +336,7 @@ private fun RevenueInfo(revenue: Int, modifier: Modifier = Modifier) {
             color = MaterialTheme.colorScheme.onSecondaryContainer
         )
         Text(
-            text = "$${revenue}",
+            text = uiState.value.totalRevenue.toString(),
             textAlign = TextAlign.Right,
             style = MaterialTheme.typography.headlineMedium,
             color = MaterialTheme.colorScheme.onSecondaryContainer
@@ -335,17 +346,19 @@ private fun RevenueInfo(revenue: Int, modifier: Modifier = Modifier) {
 
 @Composable
 private fun DessertsSoldInfo(dessertsSold: Int, modifier: Modifier = Modifier) {
+val gameViewMode: GameViewModel = viewModel()
+    val uiState = gameViewMode.UiState.collectAsState()
     Row(
         modifier = modifier,
         horizontalArrangement = Arrangement.SpaceBetween,
     ) {
         Text(
-            text = stringResource(R.string.dessert_sold),
+            text = stringResource(id = R.string.dessert_sold),
             style = MaterialTheme.typography.titleLarge,
             color = MaterialTheme.colorScheme.onSecondaryContainer
         )
         Text(
-            text = dessertsSold.toString(),
+            text = uiState.value.dessertSort.toString(),
             style = MaterialTheme.typography.titleLarge,
             color = MaterialTheme.colorScheme.onSecondaryContainer
         )

@@ -73,7 +73,7 @@ fun MainPart(modifier: Modifier = Modifier) {
             modifier = Modifier.padding(16.dp)
         )
         Text(
-            text = "Android Developer",
+            text = "Full-stack Developer",
             color = Color.White,
             fontSize = 24.sp
         )
@@ -123,6 +123,7 @@ fun BusinessCard(modifier: Modifier = Modifier) {
         .fillMaxSize()
         .background(Color(0xff1a1a20)),
        ) {
+        Spacer(modifier = Modifier.weight(1f))
         MainPart(modifier = Modifier.weight(1f))
         Spacer(modifier = Modifier.weight(1f))
         Footer()

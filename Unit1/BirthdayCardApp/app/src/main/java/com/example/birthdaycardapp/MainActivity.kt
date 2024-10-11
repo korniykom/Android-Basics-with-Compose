@@ -58,10 +58,12 @@ fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
             fontSize = 100.sp,
             lineHeight = 116.sp,
             textAlign = TextAlign.Center,
+            color = Color.DarkGray
         )
         Text(
             text = from,
             fontSize = 36.sp,
+            color = Color.DarkGray,
             modifier = Modifier
                 .padding(16.dp)
                 .align(alignment = Alignment.CenterHorizontally)

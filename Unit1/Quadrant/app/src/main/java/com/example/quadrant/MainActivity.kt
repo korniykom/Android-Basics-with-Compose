@@ -60,11 +60,13 @@ fun Quadrant(
         Text(
             fontWeight = FontWeight.Bold,
             text = title,
-            modifier = Modifier.padding(12.dp)
+            modifier = Modifier.padding(12.dp),
+            color = Color.Black
         )
         Text(
             text = description,
             textAlign = TextAlign.Center,
+            color = Color.Black
         )
     }
 }

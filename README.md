@@ -19,7 +19,15 @@
 
 </details>
 <details>
-  <summary><strong> Unit 2 </strong></summary>
+  <summary><strong> Unit 2 apps </strong></summary>
+
+  ### Dice Roller
+  ![image](https://github.com/user-attachments/assets/cba22ee7-ff6e-4d66-9aa9-bdf2c7ce6c1d)
+
+  ### Lemonade
+  ![image](https://github.com/user-attachments/assets/5042f80e-a453-4254-bdfd-f9a7776c911d)
+
+
 </details>
 
 <details>

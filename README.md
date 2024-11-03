@@ -1,14 +1,47 @@
-Unit 1:
--Business Card
+<details>
+  <summary><strong> Unit 1 apps </strong></summary>
+  
+  ### Birthday Card
+  ![image](https://github.com/user-attachments/assets/9c29e207-3b6d-4fc4-9782-81fdbc1f79c7)
 
-<img src="https://github.com/korniykom/Android-Basics-with-Compose/assets/81708839/798aa083-bdb7-44c7-be85-a64a132ecdfe" alt="My first Android app" width="550"/>
+  ### Quadrant
+  ![image](https://github.com/user-attachments/assets/7556efa3-bbc4-496a-97bf-93950f63adba)
 
-Unit 2:
--Tip calculator
 
-<img src="https://github.com/korniykom/Android-Basics-with-Compose/assets/81708839/d3fa786b-28b7-439b-8fc0-44a4e1ce8547" alt="Dice Roller" width="550"/>
+  ### Compose Article
+  ![image](https://github.com/user-attachments/assets/58a8e0df-8d44-4d0d-aa57-3ffdad2e1122)
 
-Unit 3:
--30 Days App
+  ### Task Manager
+  ![image](https://github.com/user-attachments/assets/135a4a73-c3e3-48f8-915e-07b6d1c2f85c)
 
-<img src="https://github.com/korniykom/Android-Basics-with-Compose/assets/81708839/2f9d05cb-592d-48a5-9d2f-d2942dabd6a3" alt="30 Days App" width="550"/>
+  ### Bussiness Card
+  ![image](https://github.com/user-attachments/assets/dfe038ac-841f-4024-a124-c9ef4e75c043)
+
+</details>
+<details>
+  <summary><strong> Unit 2 </strong></summary>
+</details>
+
+<details>
+  <summary><strong> Unit 3 </strong></summary>
+</details>
+
+<details>
+  <summary><strong> Unit 4 </strong></summary>
+</details>
+
+<details>
+  <summary><strong> Unit 5 </strong></summary>
+</details>
+
+<details>
+  <summary><strong> Unit 6 </strong></summary>
+</details>
+
+<details>
+  <summary><strong> Unit 7 </strong></summary>
+</details>
+
+<details>
+  <summary><strong> Unit 8 </strong></summary>
+</details>

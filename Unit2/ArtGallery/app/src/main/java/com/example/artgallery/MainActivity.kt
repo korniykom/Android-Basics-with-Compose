@@ -58,12 +58,8 @@ fun ImageAndDescription(
     modifier: Modifier = Modifier
 ) {
     var imagePainter = when(currentImage) {
-        1 -> R.drawable.dice_1
-        2 -> R.drawable.dice_2
-        3 -> R.drawable.dice_3
-        4 -> R.drawable.dice_4
-        5 -> R.drawable.dice_5
-        else -> R.drawable.dice_6
+        1 -> R.drawable.sunset
+         else -> R.drawable.city
     }
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -110,12 +106,12 @@ fun Buttons(
 fun ArtApp() {
     var currentImage: Int by remember { mutableIntStateOf(1)}
     val nextImage = {
-        if(currentImage in (1..5)) {
+        if(currentImage in (1..1)) {
             currentImage++
         }
     }
     val previousImage = {
-        if(currentImage in (2..6)) {
+        if(currentImage in (2..2)) {
             currentImage--
         }
     }

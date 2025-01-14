@@ -31,25 +31,25 @@
 </details>
 
 <details>
-  <summary><strong> Unit 3 </strong></summary>
+  <summary><strong> Unit 3 apps</strong></summary>
+
+  
+  ### Affirmations  
+  ![image](https://github.com/user-attachments/assets/a7d66923-b2db-4685-bf2f-ff2fb8d11745)
+
+  ### Grid
+  ![image](https://github.com/user-attachments/assets/b118225c-9816-45c8-8857-e02474c31e33)
+
+  ### Hero app
+  ![image](https://github.com/user-attachments/assets/5a70df02-49de-4548-b761-aca710ec1977)
+
+  ### Woof
+  ![image](https://github.com/user-attachments/assets/e76d1f14-c84f-4a5b-ad55-ea86b2836a43)
+
+
 </details>
 
 <details>
   <summary><strong> Unit 4 </strong></summary>
 </details>
 
-<details>
-  <summary><strong> Unit 5 </strong></summary>
-</details>
-
-<details>
-  <summary><strong> Unit 6 </strong></summary>
-</details>
-
-<details>
-  <summary><strong> Unit 7 </strong></summary>
-</details>
-
-<details>
-  <summary><strong> Unit 8 </strong></summary>
-</details>

@@ -41,7 +41,7 @@ import androidx.compose.ui.unit.dp
 import com.example.affirmations.data.Datasource
 import com.example.affirmations.model.Affirmation
 import com.example.affirmations.ui.theme.AffirmationsTheme
-import javax.sql.DataSource
+Dimport javax.sql.DataSource
 
 class MainActivity : ComponentActivity() {
 

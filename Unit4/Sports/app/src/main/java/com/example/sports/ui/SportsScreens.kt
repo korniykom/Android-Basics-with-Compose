@@ -169,7 +169,7 @@ fun SportsAppBar(
         title = {
             Text(
                 text =
-                if (!isShowingListPage && contentType != SportsContentType.ListAndDetaily) {
+                if (!isShowingListPage && contentType != SportsContentType.ListAndDetail) {
                     stringResource(R.string.detail_fragment_label)
                 } else {
                     stringResource(R.string.list_fragment_label)
